@@ -1,0 +1,23 @@
+name: CowLauncher
+version: 1.0.0
+main: com.example.cowlauncher.CowLauncherPlugin
+api-version: "1.20"
+
+commands:
+  cowlaunch:
+    description: Launch nearby cows upward.
+    usage: /cowlaunch [radius] [power]
+    permission: cowlauncher.use
+  instabreak:
+    description: Toggle instant block breaking in survival.
+    usage: /instabreak [on|off|toggle]
+    permission: cowlauncher.instabreak
+
+permissions:
+  cowlauncher.use:
+    description: Allows using /cowlaunch
+    default: op
+  cowlauncher.instabreak:
+    description: Allows using /instabreak
+    default: op
+
