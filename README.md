@@ -1,6 +1,6 @@
-# CowLauncher (Paper plugin)
+# Entity Launcher and Instant blocks breaking (Paper plugin)
 
-A Maven-based **Paper** server plugin with `/cowlaunch` and `/instabreak`.
+A Maven-based **Paper** server plugin with `/cowlaunch` - launcjes entities and `/instabreak` - breaks block instantly.
 
 Built as a learning project: GitHub → Maven → local Paper server → Minecraft Java Edition.
 
@@ -27,7 +27,6 @@ mvn clean package
 
 Copy `target/minecraft-plugin-1.0.0.jar` → server `plugins/` (one JAR only) → restart Paper → join **`localhost`** → `op YourName` → `/cowlaunch` · `/instabreak on`
 
-**Not used:** Fabric, Fabric API, Education Edition.
 
 Full handout: **[docs/STUDENT-HANDOUT.md](docs/STUDENT-HANDOUT.md)**
 
