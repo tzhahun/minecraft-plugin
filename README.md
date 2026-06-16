@@ -1,6 +1,6 @@
 # Entity Launcher and Instant blocks breaking (Paper plugin)
 
-A Maven-based **Paper** server plugin with `/cowlaunch` - launcjes entities and `/instabreak` - breaks block instantly.
+A Maven-based **Paper** server plugin with `/cowlaunch` - launches nearby entities upward and `/instabreak` - breaks blocks instantly.
 
 Built as a learning project: GitHub → Maven → local Paper server → Minecraft Java Edition.
 
